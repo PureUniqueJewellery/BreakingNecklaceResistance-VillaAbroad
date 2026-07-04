@@ -4,31 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pure Unique Jewellery Tracker</title>
-
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-
   <header>
-    <h1>💎 Pure Unique Jewellery Tracker</h1>
-    <p class="subtitle">From bead... to ready for sale</p>
+    <h1>Pure Unique Jewellery Tracker</h1>
+
+    <div id="dashboard">
+      <p id="stats"></p>
+      <button onclick="toggleView()">Toggle View</button>
+    </div>
   </header>
 
-  <section id="dashboard">
-    <h2>📊 Dashboard</h2>
-    <div id="stats">Loading...</div>
-  </section>
-
-  <section id="controls">
-    <input id="search" placeholder="Search SKU..." />
-    <button onclick="toggleView()">Toggle View</button>
-  </section>
-
-  <main id="app"></main>
+  <main>
+    <div id="app"></div>
+  </main>
 
   <script src="data.js"></script>
   <script src="app.js"></script>
-
 </body>
 </html>
