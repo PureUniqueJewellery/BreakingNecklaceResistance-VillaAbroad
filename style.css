@@ -1,102 +1,55 @@
-/* ================================
-   Pure Unique Jewellery Tracker
-   STYLE (v1.0)
-================================ */
-
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background: #0f1115;
-  color: #ffffff;
+  margin: 0;
+  background: #f5f5f5;
 }
 
 header {
-  padding: 20px;
+  background: #111;
+  color: white;
+  padding: 15px;
   text-align: center;
-  background: #151924;
-  border-bottom: 1px solid #2a2f3a;
-}
-
-h1 {
-  margin: 0;
-  font-size: 20px;
-}
-
-.subtitle {
-  opacity: 0.7;
-  font-size: 12px;
 }
 
 #dashboard {
-  padding: 15px;
-  background: #121623;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-#controls {
-  display: flex;
-  gap: 10px;
-  padding: 10px;
-}
-
-#search {
-  flex: 1;
-  padding: 10px;
-  border-radius: 8px;
-  border: none;
+  margin-top: 10px;
 }
 
 button {
-  padding: 10px;
+  padding: 10px 15px;
+  margin: 5px;
   border: none;
-  border-radius: 8px;
-  background: #2d6cdf;
+  background: #333;
   color: white;
+  border-radius: 6px;
   cursor: pointer;
 }
 
 button:hover {
-  opacity: 0.9;
+  background: #555;
 }
 
-#app {
+main {
   padding: 10px;
 }
 
 .card {
-  background: #151924;
-  margin-bottom: 10px;
-  padding: 12px;
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
   border-radius: 10px;
-  border: 1px solid #2a2f3a;
-}
-
-.card h3 {
-  margin: 0;
-}
-
-.tasks {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin-top: 10px;
 }
 
 .task {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
   padding: 8px;
-  border-radius: 6px;
-  border: none;
   text-align: left;
-  background: #2a2f3a;
-  color: white;
+  border-radius: 6px;
 }
 
 .task.done {
-  background: #1f7a4d;
-}
-
-.task:active {
-  transform: scale(0.98);
-}  font-size: 16px;
+  background: #c8f7c5;
+  text-decoration: line-through;
 }
